@@ -1,0 +1,52 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-projectamplify-dev-141141-authRole",
+      "UnauthRoleArn": "arn:aws:iam::114358219886:role/amplify-projectamplify-dev-141141-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::114358219886:role/amplify-projectamplify-dev-141141-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-projectamplify-dev-141141-deployment",
+      "UnauthRoleName": "amplify-projectamplify-dev-141141-unauthRole",
+      "StackName": "amplify-projectamplify-dev-141141",
+      "StackId": "arn:aws:cloudformation:eu-north-1:114358219886:stack/amplify-projectamplify-dev-141141/92cb1670-3064-11ee-88d1-0e8b3a51eae6",
+      "AmplifyAppId": "d20begypftea0b",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-projectamplify-dev-141141-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d20begypftea0b",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "projectamplify1b6de078": {}
+      },
+      "function": {
+        "lambdaAPIAmplify": {
+          "deploymentBucketName": "amplify-projectamplify-dev-141141-deployment",
+          "s3Key": "amplify-builds/lambdaAPIAmplify-6a656349666a5774736f-build.zip"
+        },
+        "S3Triggerdd77b295": {
+          "deploymentBucketName": "amplify-projectamplify-dev-141141-deployment",
+          "s3Key": "amplify-builds/S3Triggerdd77b295-37574430484b326e3558-build.zip"
+        },
+        "dynamoDBProjectTriggerd5a48c00": {
+          "deploymentBucketName": "amplify-projectamplify-dev-141141-deployment",
+          "s3Key": "amplify-builds/dynamoDBProjectTriggerd5a48c00-76524a562f48526b4341-build.zip"
+        },
+        "sendMail": {
+          "deploymentBucketName": "amplify-projectamplify-dev-141141-deployment",
+          "s3Key": "amplify-builds/sendMail-356b6e71367134656a6c-build.zip"
+        }
+      },
+      "api": {
+        "apiMonitoring": {}
+      },
+      "storage": {
+        "storageLabelProject": {},
+        "dynamoDBProject": {}
+      }
+    }
+  }
+}

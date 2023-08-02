@@ -1,0 +1,12 @@
+{
+  "resourceName": "dynamoDBProject",
+  "tableName": "dynamoDBProject",
+  "partitionKey": {
+    "fieldName": "email",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": [
+    "dynamoDBProjectTriggerd5a48c00"
+  ]
+}

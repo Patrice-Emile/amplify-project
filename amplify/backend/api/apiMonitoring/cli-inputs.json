@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "paths": {
+    "/ressources": {
+      "name": "/ressources",
+      "lambdaFunction": "lambdaAPIAmplify",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read"
+        ]
+      }
+    },
+    "/sendMail": {
+      "name": "/sendMail",
+      "lambdaFunction": "sendMail",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

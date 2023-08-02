@@ -1,0 +1,14 @@
+{
+  "resourceName": "storageLabelProject",
+  "policyUUID": "8d5d8885",
+  "bucketName": "bucketamplify",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "S3Triggerdd77b295",
+  "groupAccess": {}
+}
